@@ -1,0 +1,153 @@
+.bgcolor {
+  background-color: #07A4FD;
+  font-size: 10px;
+}
+
+.bgcolor-red {
+  background-color: #FF0000;
+  font-size: 10px;
+}
+
+.color{
+  color: #07A4FD;
+}
+
+.color-li {
+  background-color: #FF0000;
+}
+.border-r-2{
+  border-right: 1.5px solid rgb(201, 198, 198);
+}
+
+.person{
+  background-color: #FF0000;
+}
+
+/* form-button-color */
+
+.group {
+  background-color: #FF0000;
+}
+
+.input-placeholder{
+  font-size: xx-small;
+}
+
+.input-vector{
+  position: relative;
+  font-size: xx-small;
+}
+.vector{
+  position: absolute;
+  right: 500px;
+  top: 375px;
+}
+
+/* sidebar */
+
+.sidebar {
+  display: flex;
+  flex: 2;
+  background-color:#EEEEEE;
+  height: 100vh;
+}
+.home-container{
+  background-color: #E5E5E5;
+  display: flex;
+  flex: 6;
+  flex-direction: column;
+}
+
+.another{
+  flex-grow: 1;
+}
+
+.active{
+  background-color: #FF0000;
+  color: #fff;
+}
+
+/* card */
+.card-bg{
+  background-color: #B3D9EE;
+  position: relative;
+}
+
+.icon-dashboard {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+.buy-now{
+  position: relative;
+  left: 200px;
+  top: 24px;
+}
+
+/* accountView */
+
+.account-bg{
+  background-color: #153A9B;
+}
+
+.text-color{
+  color: #5CBEF5;
+}
+
+/* ElectrivHome */
+
+.buttom-bg {
+  background-color: #07A4FD;
+}
+
+.electric-input {
+  position: relative;
+}
+
+.electric-input-b{
+  position: relative;
+}
+.arrowDown {
+  position: absolute;
+  top: 303px;
+  left: 960px;
+}
+
+/* Register */
+
+.arrowDownReg{
+  position: absolute;
+  top: 255px;
+  left: 950px;
+}
+
+.arrowReg_reg{
+  position: absolute;
+  top: 355px;
+  left: 950px;
+}
+
+.arrow_Reg{
+  position: absolute;
+  top: 250px;
+  left: 980px;
+}
+
+/* Data Arror */
+
+.data{
+  position: relative;
+}
+
+.arrow_Reg_data_d{
+  position: absolute;
+  top: 250px;
+  left: 980px;
+}
+
+.arrow_Reg_data {
+  position: absolute;
+  top: 345px;
+  left: 980px;
+}
+/* sx={{ minWidth: 650 }} */
