@@ -1,0 +1,8 @@
+.active {
+    background-color: #FF0000;
+    color: white;
+}
+
+.grow {
+    flex: 1;
+}

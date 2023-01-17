@@ -1,4 +1,3 @@
-import '../pages/App.css';
 
 const Register = () => {
   return (
@@ -19,11 +18,13 @@ const Register = () => {
                     type="text"
                     autoComplete
                     required
-                    className="w-full appearance-none rounded-xl border border-gray-300 px-3 py-3 text-gray-900 placeholder-text-gray-900 bg-gray-50 my-3"
+                    className="w-full appearance-none rounded-xl border border-gray-300 
+                      px-3 py-3 text-gray-900 placeholder-text-gray-900
+                     bg-gray-50 my-3 relative"
                     placeholder="Select Bouguet"
                />
                </div>
-               <div className='arrowDownReg'>
+               <div className='absolute bottom-[346px] right-[390px]'>
                  <select className='bg-transparent text-gray-500'>
                  <option></option>
                  <option></option>
@@ -42,12 +43,13 @@ const Register = () => {
                     type="password"
                     autoComplete="current-password"
                     required
-                    className="w-full appearance-none rounded-xl border border-gray-300 mt-2 px-3 py-3 text-gray-900 bg-gray-50"
+                    className="w-full appearance-none rounded-xl border border-gray-300
+                     mt-2 px-3 py-3 text-gray-900 bg-gray-50"
                     placeholder='Select Boundle'
                     />
                  </div>
-                 <div className='arrowReg_reg'>
-                  <select>
+                 <div className='absolute bottom-[440px] right-[390px]'>
+                  <select className="bg-transparent">
                    <option></option>
                    <option></option>
                    <option></option>
@@ -71,7 +73,7 @@ const Register = () => {
                 </div>
                <button
                     type="submit"
-                    className="py-4 px-12 mt-5 buttom-bg rounded"
+                        className="py-4 px-12 mt-8 bg-[#07A4FD] rounded"
                >
                     <span className="text-white font-bold">
                       Get Meter Info

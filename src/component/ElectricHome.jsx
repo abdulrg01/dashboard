@@ -1,5 +1,4 @@
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
-import '../pages/App.css';
 
 const ElectricHome = () => {
   return (
@@ -19,12 +18,14 @@ const ElectricHome = () => {
                          type="text"
                          autoComplete
                          required
-                         className="w-full appearance-none rounded-xl border border-gray-300 px-3 py-3 text-gray-900 placeholder-text-gray-900 bg-gray-50 my-3"
+                         className="w-full appearance-none rounded-xl border 
+                         border-gray-300 px-3 py-3 text-gray-900 
+                         placeholder-text-gray-900 bg-gray-50 my-3 relative"
                          placeholder="Select Power"
                     />
                     </div>
-                    <div className='arrowDown'>
-                       <select>
+                    <div className='absolute right-96 bottom-[340px]'>
+                       <select className='bg-transparent'>
                          <option></option>
                          <option></option>
                          <option></option>
@@ -46,7 +47,7 @@ const ElectricHome = () => {
                      </div>
                     <button
                          type="submit"
-                         className="py-4 px-12 mt-8 buttom-bg rounded"
+                         className="py-4 px-12 mt-8 bg-[#07A4FD] rounded"
                     >
                          <span className="text-white font-bold">
                            Get Meter Info

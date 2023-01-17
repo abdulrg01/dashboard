@@ -1,18 +1,9 @@
-import React from 'react';
-import Sidebar from '../component/Sidebar';
-import Navbar from '../component/Navbar';
-import Footer from '../component/Footer';
-import '../pages/App.css'
-import Register from '../component/Register';
+import Footer from "../component/Footer"
 
 const Data = () => {
   return (
-    <div className='flex'>
-       <Sidebar />
-        <div className='home-container'>
-          <Navbar />
-          <div className='another'>
-             <div className='ml-10 mt-1'>
+    <div className=''>
+             <div className='ml-10 lg:mt-3 mt-20'>
               <h1 className='font-bold text-4xl'>Data TopUp</h1>
               <p className='font-semibold my-2'>Renew your data subscription here.</p>
              </div>
@@ -31,12 +22,14 @@ const Data = () => {
                         type="text"
                         autoComplete
                         required
-                        className="w-full appearance-none rounded-xl border border-gray-300 px-3 py-3 text-gray-900 placeholder-text-gray-900 bg-gray-50 my-3"
+                        className="w-full appearance-none rounded-xl border relative 
+                        border-gray-300 px-3 py-3 text-gray-900 
+                        placeholder-text-gray-900 bg-gray-50 my-3"
                         placeholder="Select Network"
                      />
                       </div>
-                       <div className='arrow_Reg_data_d'>
-                        <select>
+                       <div className='absolute bottom-[445px] right-[360px]'>
+                        <select className="bg-transparent">
                           <option></option>
                           <option></option>
                           <option></option>
@@ -52,12 +45,14 @@ const Data = () => {
                           id="dataNumber"
                           type="text"
                           required
-                          className="w-full data appearance-none rounded-xl border border-gray-300 mt-2 px-3 py-3 text-gray-900 bg-gray-50"
+                          className="w-full data appearance-none rounded-xl border 
+                          border-gray-300 mt-2 px-3 py-3 text-gray-900 
+                          bg-gray-50 relative"
                           placeholder='Select Boundle'
                         />
                       </div>
-                      <div className='arrow_Reg_data'>
-                        <select>
+                      <div className='absolute bottom-[345px] right-[360px]'>
+                        <select className='bg-transparent'>
                           <option></option>
                           <option></option>
                           <option></option>
@@ -79,7 +74,7 @@ const Data = () => {
                       </div>
                       <button
                         type="submit"
-                        className="py-4 px-12 mt-8 buttom-bg rounded"
+                        className="py-4 px-12 mt-8 bg-[#07A4FD] rounded"
                       >
                        <span className="text-white font-bold">
                          Get Meter Info
@@ -87,10 +82,8 @@ const Data = () => {
                       </button>
                 </form>
              </div>
+             <Footer />
           </div>
-          <Footer />
-        </div>
-    </div>
   )
 }
 
