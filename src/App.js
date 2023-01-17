@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import { Form, Sidebar, Navbar, Footer } from './component';
+import { Form, Sidebar, Navbar } from './component';
 import { Dashboard, Airtime, Data, Electricity, FundWallet, Setting, Transaction, Tv } from './pages';
 import './App.css';
 

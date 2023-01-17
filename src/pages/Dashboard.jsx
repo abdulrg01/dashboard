@@ -2,7 +2,7 @@ import React from 'react';
 import Content from '../component/Content';
 import Footer from '../component/Footer';
 
-const Dashbord = () => {
+const Dashboard = () => {
   
   return (
     <div>
@@ -12,4 +12,4 @@ const Dashbord = () => {
   )
 }
 
-export default Dashbord
+export default Dashboard
